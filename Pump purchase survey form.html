@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width" initial-scale="1.0">
+        <title>Hydraulic Pump Purchase</title>
+        <link rel="stylesheet" href="survey-css.css">
+    </head>    
+<body>        
+    <h1 id="title">Hydraulic Pump Purchase</h1>
+    <p id="description">Fill the details below to complete your hydraulic pump order: </p>
+    <form id="survey-form">
+        <div class="headings">
+        <div id="name-label>
+            <label for="name"><b>Name</b></label>
+            <input id="name" name="name" type="text" placeholder="Albert Einstern" class="input-fields" required>
+        </div>
+        <div id="email-label">
+            <label for="email"><b>Email</b></label>
+            <input id="email" name="email" type="email" placeholder="einstern@gmail.com" class="input-fields" required>
+        </div>
+        <div id="number-label">
+            <label for="number"><b>Age</b></label>
+            <input id="number" name="number" type="number" min="18" max="120" class="input-fields"  required>
+        </div>
+        <div id="number-label">
+            <label for="number"><b>Order Date</b></label>
+            <input id="number" name="number" type="date" class="input-fields"  required>
+        </div>
+        <div>
+            <label for="pump type"><b>Pump type</b></label>
+            <select id="drop-down" class="input-fields" >
+            <option value="Select pump  type" class="first-option">Select pump  type</option>
+            <option value="centrifugal pump">Centrifugal pump</option>
+            <option value="axial flow pump">Axial flow pump</option>
+            <option value="positive displacement pump">Positive displacement pump</option>
+            <option value="diaphragm pump">Diaphragm pump</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Pump_pressure" id="pump-pressure"><b>Pump pressure:</b></label>
+            <input id="pump-pressure" type="radio" name="pressure" value="100-200psi"  >
+            <label for="Pump_pressure">100-200psi</label>
+            <input id="pump-pressure" type="radio" name="pressure" value="200-300psi" >
+            <label for="Pump_pressure">200-300psi</label>
+            <input id="pump-pressure" type="radio" name="pressure" value="100-300psi"  >
+            <label for="Pump_pressure">100-300psi</label>
+        </div>
+        <br>
+        <div>
+            <label for="features"><b>Adittional Pump Features:</b></label>
+            <br>
+            <input id="radio"  type="checkbox" value="priming">
+            <label for="checkbox">Full Self Priming(auto priming)-R2000</label>
+            <br>
+            <input id="radio"  type="checkbox" value="submersible">
+            <label for="checkbox">Water Submersible(submersible)-R3500</label>
+            <br>
+            <input id="radio"  type="checkbox" value="circulating">
+            <label for="checkbox">Self Circulating Pump</label>
+            <br>
+            <input id="radio"  type="checkbox" value="solar">
+            <label for="checkbox">Solar Powered Pump-R2750</label>
+        </div>
+        <br>
+        <div>
+            <label for="comment"><b>Additional comments</b></label>
+            <br>
+            <textarea name="comments" id="comments" rows="10" cols="50"></textarea>
+        </div>
+        <button type="submit" ><b>Place Order</b></button>
+        </div>
+    </form>
+</body>    
+</html>
