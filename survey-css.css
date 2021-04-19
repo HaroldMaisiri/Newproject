@@ -14,6 +14,12 @@ body{
     font-family: Raleway;
     background-color:#E1E5F2;
 }
+h1{
+    text-align:center;
+}
+#description{
+    text-align:center;
+}
 form{
     background-color:#3D93B8;
     padding: 2em 2em;/*distance between content and the borders of the form*/
