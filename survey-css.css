@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.5;/* height betwee text*/
-    width: 550px;
+    max-width:100%;
     margin: auto;
     font-family: Raleway;
     background-color:#E1E5F2;
